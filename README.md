@@ -391,7 +391,8 @@ File dibuat dengan nama [about.html](lab4_layout/about.html). Sesuai instruksi *
 3. **Galeri Portofolio Proyek Nyata (*Live Portfolio Projects*):**
    - **Kasir Prefektur (Point of Sales):** Aplikasi web sistem kasir / POS modern untuk manajemen transaksi penjualan ([https://kasir-prefektur.gt.tc/](https://kasir-prefektur.gt.tc/)).
    - **Topup Games Digital Portal:** Platform layanan pengisian ulang voucher dan mata uang game daring otomatis ([https://topupgames.gt.tc/](https://topupgames.gt.tc/)).
-   - Disertai tombol tautan langsung (*Call to Action*) menuju website portofolio aktif.
+   - **EAISY - ERP Manufaktur (Electroplating Superindo):** Sistem ERP manufaktur terintegrasi (*Epindo Automation Integrated System*) yang mencakup modul HRD, invoice/faktur penagihan, manajemen inventory, dan alur kontrol produksi elektroplating.
+   - Disertai gambar tangkapan layar asli dan tombol tautan langsung (*Call to Action*).
 4. **Keahlian & Penguasaan Teknologi (*Skills Progress Bar*):**
    - Baris visual persentase penguasaan teknologi web (HTML5 Semantics, CSS3 Layouting, Responsive Design, Git & GitHub).
 
