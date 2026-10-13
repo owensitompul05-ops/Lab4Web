@@ -44,12 +44,14 @@
 
 | Keterangan | Data Mahasiswa |
 | :--- | :--- |
-| **Nama Lengkap** | Mahasiswa Pelita Bangsa |
-| **NIM** | 312210000 |
-| **Kelas** | TI.22.A1 |
+| **Nama Lengkap** | **Margent Ouwn Sitompul** |
+| **NIM** | **312510463** |
+| **Kelas** | Teknik Informatika |
 | **Mata Kuliah** | Pemrograman Web |
 | **Dosen Pengampu** | Agung Nugroho, M.Kom |
 | **Instansi** | Universitas Pelita Bangsa |
+| **Portofolio 1** | [https://kasir-prefektur.gt.tc/](https://kasir-prefektur.gt.tc/) |
+| **Portofolio 2** | [https://topupgames.gt.tc/](https://topupgames.gt.tc/) |
 
 ---
 
@@ -381,18 +383,15 @@ File dibuat dengan nama [about.html](lab4_layout/about.html). Sesuai instruksi *
 **Komponen Halaman About:**
 1. **Profil Pengembang (*Profile Card*):**
    - Menampilkan foto avatar circular dengan aksen border biru.
-   - Nama mahasiswa dan status: *Mahasiswa Teknik Informatika - Universitas Pelita Bangsa*.
-   - Bio/ringkasan fokus keahlian di bidang front-end web development dan UI/UX design.
+   - Nama mahasiswa: **Margent Ouwn Sitompul**
+   - NIM: **312510463** | Program Studi Teknik Informatika - Universitas Pelita Bangsa.
+   - Deskripsi/bio fokus keahlian rekayasa perangkat lunak dan pengembangan aplikasi web.
 2. **Deskripsi Diri & Minat Akademik:**
    - Ulasan komprehensif mengenai penerapan konsep Box Element, CSS Float, Clearfix, dan HTML5 Semantics.
-3. **Galeri Portofolio Proyek (*Portfolio Grid*):**
-   - Layout grid 2x2 multi-kolom responsif dengan kartu karya (*project cards*).
-   - Menampilkan 4 proyek:
-     1. *E-Commerce Web Portal* (HTML5, CSS Layout, JavaScript)
-     2. *Analytics Dashboard UI* (CSS Grid, Semantics, UI/UX)
-     3. *Portal Informasi Destinasi Wisata* (CSS Floating, Clearfix)
-     4. *Sistem Informasi Akademik / SIAKAD* (Semantic Web, Form Handling)
-   - Disertai gambar representatif dan badge teknologi pendukung.
+3. **Galeri Portofolio Proyek Nyata (*Live Portfolio Projects*):**
+   - **Kasir Prefektur (Point of Sales):** Aplikasi web sistem kasir / POS modern untuk manajemen transaksi penjualan ([https://kasir-prefektur.gt.tc/](https://kasir-prefektur.gt.tc/)).
+   - **Topup Games Digital Portal:** Platform layanan pengisian ulang voucher dan mata uang game daring otomatis ([https://topupgames.gt.tc/](https://topupgames.gt.tc/)).
+   - Disertai tombol tautan langsung (*Call to Action*) menuju website portofolio aktif.
 4. **Keahlian & Penguasaan Teknologi (*Skills Progress Bar*):**
    - Baris visual persentase penguasaan teknologi web (HTML5 Semantics, CSS3 Layouting, Responsive Design, Git & GitHub).
 
