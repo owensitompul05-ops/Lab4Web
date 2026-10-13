@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <!-- Single Layout Content -->
+        <div class="single-content">
+            <!-- Profil Card -->
+            <div class="profile-card">
+                <img src="images/avatar.svg" alt="Foto Profil" class="avatar">
+                <div class="bio">
+                    <h2>Mahasiswa Pemrograman Web</h2>
+                    <h4>Teknik Informatika - Universitas Pelita Bangsa</h4>
+                    <p>
+                        Halo! Selamat datang di halaman profil saya. Saya adalah mahasiswa Program Studi Teknik Informatika di Universitas Pelita Bangsa yang berfokus pada pengembangan aplikasi web modern. Memiliki ketertarikan mendalam dalam rancang bangun antarmuka pengguna (UI/UX), CSS Layouting, serta implementasi standar HTML5 Semantics untuk menghasilkan situs web yang semantik, estetik, dan fungsional.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Deskripsi / Tentang Saya -->
+            <h3 class="section-title">Deskripsi Diri & Minat Akademik</h3>
+            <p style="line-height: 26px; margin-bottom: 20px; font-size: 15px; color: #444;">
+                Praktikum Pemrograman Web pada modul ke-4 ini membahas mengenai teknik penyusunan tata letak website menggunakan <strong>Box Element</strong>, <strong>CSS Float</strong>, <strong>Clearfix</strong>, serta <strong>HTML5 Semantic Elements</strong>. Pemahaman terhadap konsep-konsep ini sangat fundamental dalam menciptakan arsitektur website yang kokoh sebelum melangkah ke layout modern seperti Flexbox dan CSS Grid.
+            </p>
+
+            <!-- Portofolio Proyek -->
+            <h3 class="section-title">Portofolio Karya & Proyek Web</h3>
+            <div class="portfolio-grid">
+                <!-- Proyek 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio1.svg" alt="E-Commerce Web Portal">
+                        <h3>E-Commerce Web Portal</h3>
+                        <p>Platform katalog penjualan daring dengan tata letak multi-kolom responsif, navigasi kategori produk, dan keranjang belanja berbasis CSS modern.</p>
+                        <div>
+                            <span class="tag-badge">HTML5</span>
+                            <span class="tag-badge">CSS Layout</span>
+                            <span class="tag-badge">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio2.svg" alt="Analytics Dashboard">
+                        <h3>Analytics Dashboard UI</h3>
+                        <p>Perancangan antarmuka panel analitik statistik pengunjung web yang memadukan sidebar widget, card metrics, dan grafik data visual.</p>
+                        <div>
+                            <span class="tag-badge">CSS Grid</span>
+                            <span class="tag-badge">HTML5 Semantics</span>
+                            <span class="tag-badge">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 3 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio3.svg" alt="Destinasi Wisata Portal">
+                        <h3>Portal Informasi Destinasi Wisata</h3>
+                        <p>Website pariwisata daerah yang menampilkan hero banner, galeri featurette tempat wisata, review pengunjung, dan informasi rute peta.</p>
+                        <div>
+                            <span class="tag-badge">CSS Floating</span>
+                            <span class="tag-badge">Clearfix</span>
+                            <span class="tag-badge">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 4 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio4.svg" alt="Sistem Informasi Akademik">
+                        <h3>Sistem Informasi Akademik (SIAKAD)</h3>
+                        <p>Prototipe portal mahasiswa universitas untuk pengelolaan Kartu Rencana Studi (KRS), transkrip nilai, jadwal perkuliahan, dan pengumuman kampus.</p>
+                        <div>
+                            <span class="tag-badge">Semantic Web</span>
+                            <span class="tag-badge">Form Handling</span>
+                            <span class="tag-badge">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Keahlian & Keterampilan -->
+            <h3 class="section-title">Keahlian & Penguasaan Teknologi</h3>
+            <ul class="skills-list">
+                <li>
+                    <span class="skill-name">HTML5 & Semantic Markup (95%)</span>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 95%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">CSS3 Layouting (Float, Clearfix, Box-Sizing) (90%)</span>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">Responsive Web Design & Typography (85%)</span>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 85%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-name">Version Control (Git & GitHub) (80%)</span>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 80%;"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>

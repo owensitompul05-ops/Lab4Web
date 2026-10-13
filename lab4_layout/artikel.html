@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html" class="active">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <!-- Main Wrapper -->
+        <section id="wrapper">
+            <!-- Main Content Area -->
+            <section id="main">
+                <article class="entry">
+                    <h2>Memahami Konsep Box Model dalam Desain Web</h2>
+                    <img src="images/featurette.svg" alt="Box Model CSS">
+                    <p>
+                        Setiap elemen dalam dokumen HTML dapat dibayangkan sebagai sebuah kotak persegi panjang. Box model terdiri dari empat lapisan penting: <em>Content</em> (konten teks atau gambar), <em>Padding</em> (ruang kosong di dalam border), <em>Border</em> (garis batas tepi elemen), dan <em>Margin</em> (jarak pemisah antar elemen). Properti <code>box-sizing: border-box</code> memudahkan perhitungan lebar elemen dengan menyertakan padding dan border ke dalam total dimensi.
+                    </p>
+                </article>
+
+                <hr class="divider" />
+
+                <article class="entry">
+                    <h2>Teknik CSS Float dan Penggunaan Clearfix</h2>
+                    <img src="images/featurette.svg" alt="CSS Floating" class="right-img">
+                    <p>
+                        Properti <code>float: left</code> atau <code>float: right</code> memungkinkan elemen bergeser ke sisi tertentu sehingga elemen teks atau konten lain mengalir di sekitarnya. Namun, elemen float keluar dari alur dokumen normal, yang dapat menyebabkan container induk kehilangan tinggi (collapse). Untuk mengatasinya, teknik <em>clearfix</em> menggunakan pseudo-element <code>:after</code> dengan <code>clear: both</code> diterapkan.
+                    </p>
+                </article>
+
+                <hr class="divider" />
+
+                <article class="entry">
+                    <h2>Pentingnya HTML5 Semantics Elements</h2>
+                    <img src="images/featurette.svg" alt="HTML5 Semantics">
+                    <p>
+                        Penggunaan tag semantik seperti <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, dan <code>&lt;footer&gt;</code> memberikan makna struktural yang jelas pada dokumen web. Hal ini mempermudah perayap mesin pencari (SEO), meningkatkan aksesibilitas bagi screen reader, dan membuat struktur kode lebih mudah dipahami oleh pengembang lain.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Sidebar Area -->
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Kategori Artikel</h3>
+                    <ul>
+                        <li><a href="#">Dasar CSS (Cascading Style Sheets)</a></li>
+                        <li><a href="#">HTML5 Semantic Markup</a></li>
+                        <li><a href="#">Tata Letak Web Responsif</a></li>
+                        <li><a href="#">UI/UX Design Best Practices</a></li>
+                    </ul>
+                </div>
+
+                <div class="widget-box">
+                    <h3 class="title">Tentang Seri Artikel</h3>
+                    <p>
+                        Kumpulan artikel ini disusun sebagai referensi pendukung mata kuliah Pemrograman Web pada materi Praktikum 4: CSS Layout di Universitas Pelita Bangsa.
+                    </p>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>

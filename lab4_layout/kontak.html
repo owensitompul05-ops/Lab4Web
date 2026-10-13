@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <!-- Main Wrapper -->
+        <section id="wrapper">
+            <!-- Main Content Area: Contact Form -->
+            <section id="main">
+                <article class="entry" style="margin-top: 0;">
+                    <h2>Hubungi Kami</h2>
+                    <p style="margin-bottom: 25px;">
+                        Silakan lengkapi formulir isian di bawah ini untuk menyampaikan pertanyaan, konsultasi proyek, atau saran terkait praktikum pemrograman web. Kami akan segera menghubungi Anda kembali melalui email atau telepon.
+                    </p>
+
+                    <!-- Form Kontak -->
+                    <form action="#" method="post" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah berhasil terkirim.');">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap *</label>
+                            <input type="text" id="nama" name="nama" class="form-control" placeholder="Masukkan nama lengkap Anda" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat Email *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="nama@domain.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telepon">Nomor Telepon / WhatsApp</label>
+                            <input type="tel" id="telepon" name="telepon" class="form-control" placeholder="Contoh: 081234567890">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subjek">Subjek Pesan *</label>
+                            <input type="text" id="subjek" name="subjek" class="form-control" placeholder="Contoh: Pertanyaan Praktikum Modul 4" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan / Message *</label>
+                            <textarea id="pesan" name="pesan" class="form-control" placeholder="Tuliskan isi pesan atau pertanyaan Anda di sini..." required></textarea>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 25px;">
+                            <button type="submit" class="btn btn-large">Kirim Pesan &raquo;</button>
+                            <button type="reset" class="btn btn-default" style="margin-left: 10px;">Reset Form</button>
+                        </div>
+                    </form>
+                </article>
+            </section>
+
+            <!-- Sidebar Area: Contact Information -->
+            <aside id="sidebar">
+                <!-- Widget Info Kontak -->
+                <div class="widget-box">
+                    <h3 class="title">Informasi Kontak</h3>
+                    <div style="padding: 15px;">
+                        <div class="info-item">
+                            <strong>Alamat Kampus:</strong>
+                            <span>Universitas Pelita Bangsa<br>Jl. Inspeksi Kalimalang No.9, Cibatu, Cikarang Pusat, Bekasi 17530</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Email Resmi:</strong>
+                            <span>pemrogramanweb@pelitabangsa.ac.id</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Telepon / WA:</strong>
+                            <span>(021) 8910-9762 / 0812-9988-7766</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Jam Operasional:</strong>
+                            <span>Senin - Sabtu: 08.00 - 17.00 WIB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Widget Tautan Bantuan -->
+                <div class="widget-box">
+                    <h3 class="title">Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="home.html">Beranda Utama</a></li>
+                        <li><a href="about.html">Profil Pengembang</a></li>
+                        <li><a href="artikel.html">Arsip Artikel Web</a></li>
+                        <li><a href="http://validator.w3.org" target="_blank">W3C HTML Validator</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
