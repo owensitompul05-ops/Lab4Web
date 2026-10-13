@@ -534,25 +534,6 @@ Lab4Web/
 
 ---
 
-## Petunjuk Git & Pengumpulan Tugas
-
-Sesuai instruksi poin 1, 5, dan 6 pada modul:
-1. **Inisialisasi Repository Git:**
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete Praktikum 4 CSS Layout, Pertanyaan dan Tugas, serta Laporan"
-   ```
-2. **Menghubungkan ke Remote Repository (GitHub / GitLab):**
-   ```bash
-   git remote add origin https://github.com/username-anda/Lab4Web.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. **Pengiriman ke E-Campus:**
-   Kirimkan tautan (*URL*) repository GitHub Anda ke portal e-learning ecampus Universitas Pelita Bangsa pada penugasan Praktikum 4.
-
----
 
 ## Kesimpulan
 
